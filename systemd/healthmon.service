@@ -1,0 +1,6 @@
+[Unit]
+Description=Server Health Monitor check
+
+[Service]
+Type=oneshot
+ExecStart=/opt/healthmon/healthmon.sh --quiet --html
